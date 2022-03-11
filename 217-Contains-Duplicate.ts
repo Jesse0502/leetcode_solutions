@@ -1,4 +1,4 @@
-function containsDuplicate(nums) {
+function containsDuplicate(nums: number[]): boolean {
 	let hMap = new Map()
 	let output = false
 	nums.forEach((num) => {
