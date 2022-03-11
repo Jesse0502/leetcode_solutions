@@ -1,7 +1,8 @@
 function findDisappearedNumbers(nums) {
+    let hMap = new Set([...nums])
     let output = []
     nums.forEach((num, i) => {
-        if(!nums.includes(i + 1)){
+        if(!hMap.has(i + 1)){
             output.push(i + 1)
         }
     })
