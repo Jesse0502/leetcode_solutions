@@ -7,9 +7,9 @@ class Solution:
         while not node == None:
             a.append(node.val)
             node = node.next
-        
+        print(a, list(reversed(a)))
         if not a == list(reversed(a)):
-            return False 
+            return False
         else:
             return True
         
@@ -19,6 +19,6 @@ class ListNode:
          self.val = val
          self.next = next
          
-a = ListNode(1,ListNode(0,ListNode(1, None)))
+a = ListNode(1,ListNode(0,ListNode(0, None)))
 
 print(Solution.isPalindrome("",a))
