@@ -5,7 +5,6 @@ def twoSum(nums: list, target):
         if diff in prevMap:
             return [prevMap[diff], i]
         prevMap[n] = i
-    # print(nums,target)
+    print(nums,target)
 
-
-# print(twoSum([3,2,3], 6))
+print(twoSum([3,2,3], 5))
