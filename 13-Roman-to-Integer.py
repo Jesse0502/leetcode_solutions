@@ -1,6 +1,3 @@
-from pprint import pprint
-
-
 class Solution:
     def romanToInt(self, s: str) -> int:
         arr = {

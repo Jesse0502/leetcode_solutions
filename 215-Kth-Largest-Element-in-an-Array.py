@@ -4,5 +4,5 @@ class Solution:
         return nums[len(nums) - k]
     
 print(   
-Solution.findKthLargest(0,[3,2,3,1,2,4,5,5,6], 4)
+Solution.findKthLargest(0,[3,2,3,1,2,4,5,5,6], 6)
 )

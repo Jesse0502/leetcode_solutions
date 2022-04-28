@@ -2,7 +2,6 @@ def Search2DMatrix(mtr, target):
     if mtr[0][0] > target:
         return False
     def hello(target, start=0, end=len(mtr) -1):
-        print(start,end)
         mid = round((start + end) / 2)
         if (mtr[mid][-1]) >= target and mtr[mid][0] <= target:
                 return mtr[mid]
@@ -29,5 +28,5 @@ def Search2DMatrix(mtr, target):
 
     return False
 print(
-Search2DMatrix([[-10],[-7],[-5],[-4],[-2]],1)
+Search2DMatrix([[1,3,5,7,8],[9,12,15,19,21],[22,24,27,29,30],[32,34,36,37,38],[40,42,46,47,48]],38)
 )

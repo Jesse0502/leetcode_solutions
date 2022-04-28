@@ -7,7 +7,6 @@ class Solution:
         while not node == None:
             a.append(node.val)
             node = node.next
-        print(a, list(reversed(a)))
         if not a == list(reversed(a)):
             return False
         else:
