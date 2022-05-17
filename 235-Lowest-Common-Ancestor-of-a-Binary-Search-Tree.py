@@ -1,6 +1,3 @@
-from tkinter.tix import Tree
-
-
 class TreeNode:
     def __init__(self, x):
         self.val = x
@@ -21,4 +18,4 @@ class Solution:
             else:
                 return curr
     
-Solution.lowestCommonAncestor(a)
+Solution.lowestCommonAncestor(0, a)
