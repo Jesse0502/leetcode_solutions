@@ -1,11 +1,11 @@
-def MissingNumber(nums):
-    output = 0
-    for i, n in enumerate(nums):
-        if not i in nums:
-            output = i
-        if not len(nums) in nums:
-            output = len(nums)
-    print(output)
-    return output            
+from typing import List
 
-MissingNumber([1,2,5,4,0])
+
+class Solution:
+    def missingNumber(self, nums: List[int]) -> int:
+        for n in range(len(nums) + 1):
+            if n not in nums:
+                print(n)
+
+
+Solution.missingNumber(Solution, [0, 1])
