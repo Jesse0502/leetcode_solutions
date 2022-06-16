@@ -13,4 +13,4 @@ class Solution:
         return output
 
 
-Solution.plusOne(Solution, [1, 2, 3])
+Solution.plusOne(Solution, [10, 1, 2, 3, 4])
