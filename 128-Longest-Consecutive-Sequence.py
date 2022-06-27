@@ -1,3 +1,9 @@
+
+"""
+Convert the given list of nums in to set -> loop through all the nums. If num-1 is not found in set, then add 1 to count and add 1 to curr and use while to loop ahead until it's in the set increase the count by 1. If count is greater than the max length, then return the max length 
+
+"""
+
 from typing import List
 
 
