@@ -1,3 +1,9 @@
+"""
+Take two pointers, keep first one the first index of numbers and other on the last.
+while elem at j is greater than i check the sum of numbers[i] + numbers[j] == target
+if true then return [j+1, i+1] elif sum is greater than target then j index -1 otherwise i+1
+"""
+
 from typing import List
 
 
