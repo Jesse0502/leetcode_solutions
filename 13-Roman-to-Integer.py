@@ -1,5 +1,9 @@
 """
+SINS - Given a string of Roman number we need to convert that in integer form.
 
+Solution - Make a hashmap and store all the roman numbers according to their values, now make two pointers one for the curr instance and another for the last instance. Now iterate through the string and for each character check if it's present in the hashmap, if yes, check if the last pointer value is greater than the curr pointer value then subtract that character from the curr pointer value else if it's not present then add that character to the curr pointer value then add that character to the curr pointer value or remove the last pointer value twice and increment value in curr pointer. 
+
+Time Complexity - O(n) where n is the length of the string.
 """
 
 
